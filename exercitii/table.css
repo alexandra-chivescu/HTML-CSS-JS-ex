@@ -1,0 +1,16 @@
+th,td { 
+    border: 1px solid gray;
+    text-align: left;
+    padding: 3px;
+}
+th { 
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+table { 
+    border-spacing: 0px; 
+    border-collapse: collapse; 
+    font-family: sans-serif;
+}

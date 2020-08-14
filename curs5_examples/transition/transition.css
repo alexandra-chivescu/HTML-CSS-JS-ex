@@ -1,0 +1,18 @@
+div {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    top: 25%; 
+    left: 40%; 
+    background-color: lightcoral;
+    transform: rotate(45deg) scale(1.5);
+    transform-origin: 50% 50%;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+div:hover {
+    background-color: lightseagreen;
+    transform: rotate(360deg) scale(1.5);
+    left: 60%; 
+}

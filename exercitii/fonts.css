@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
+body {
+    font-size: 20px; 
+    background-image: url('color7.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#div1, #div11 { 
+    font-weight: bolder;
+    text-decoration: underline;
+    color: seagreen;
+    text-decoration-color: lightcoral;
+    text-decoration-style: wavy;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-style: italic;
+    border-color: orange;
+    border-style: solid;
+    border-width: 10px;
+    margin: auto; 
+    padding: 10px;
+    background-color: rgb(246, 253, 152);
+    /*background-image: url('elefantel.jpg'); */
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#div2 {
+    font-weight: bolder;
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+#div3 {
+    font-weight: lighter;
+    line-height: 1.5em;
+    text-align: center;
+    border-bottom: 3px solid blue;
+    margin: 5px 10px 10px 5px;
+}
+a {
+    text-decoration: none;
+    color: salmon;
+}
+#div1 span {
+    color: rgb(138, 193, 211);
+    margin: 60px
+}

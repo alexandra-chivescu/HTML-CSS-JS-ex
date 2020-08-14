@@ -1,0 +1,31 @@
+div { 
+    height: 5em;
+    width: 5em;
+    background-color: orange;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes roll {
+    0% {
+        background-color: red;
+    }
+    50% {
+        transform: rotate(180deg); 
+        left: 50%;
+        top: 50%; 
+        background-color: blue;
+        border-radius: 50%;
+    }
+    to { 
+        transform: rotate(360deg);
+        left: 75%; 
+        top: 25%;
+    }
+}
